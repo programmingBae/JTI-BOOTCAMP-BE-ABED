@@ -11,4 +11,4 @@ COPY . .
 EXPOSE 8080
 
 # command to run on container start
-CMD ["npm", "start"]
+CMD ["node", "index.js"]
